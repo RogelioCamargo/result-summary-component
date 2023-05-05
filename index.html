@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./styles.css" />
 
     <link
       rel="icon"
@@ -18,38 +18,54 @@
     <main class="card">
       <!-- Card Result -->
       <section class="card__result">
-        <h1 class="card__result-title">Your Result</h1>
-        <div class="card__result-info">
-          <h2 class="card__user-score">76</h2>
-          <h3 class="card__total-score">of 100</h3>
+        <h1 class="cr-title">Your Result</h1>
+        <div class="cr-info">
+          <h2 class="cr__user-score">76</h2>
+          <h3 class="cr__total-score">of 100</h3>
         </div>
-        <h4 class="card__result-grade">Great</h4>
-        <p class="card__result-description">
-					Your performance exceed 65% of the people conducting the test here!
+        <h4 class="cr-grade">Great</h4>
+        <p class="cr-description">
+          Your performance exceed 65% of the people conducting the test here!
         </p>
       </section>
       <!-- Card Summary -->
       <section class="card__summary">
-        <h5 class="card__summary-title">Summary</h5>
-        <ul class="card__factors">
-          <li class="card__factor-item">
-            <span> Reaction </span>
-            <span> 80 / 100 </span>
+        <h5 class="cs-title">Summary</h5>
+        <ul class="cs__factors">
+          <li class="factor factor-reaction">
+						<img class="factor__icon" src="./assets/images/icon-reaction.svg" alt="">
+            <div>Reaction</div>
+						<div class="factor__score-info">
+							<span>80</span>
+							<span>/ 100</span>
+						</div>
           </li>
-          <li class="card__factor-item">
-            <span> Memory </span>
-            <span> 92 / 100 </span>
+          <li class="factor factor-memory">
+						<img class="factor__icon" src="./assets/images/icon-memory.svg" alt="">
+            <div>Memory</div>
+						<div class="factor__score-info">
+							<span>92</span>
+							<span>/ 100</span>
+						</div>
           </li>
-          <li class="card__factor-item">
-            <span> Verbal </span>
-            <span> 61 / 100 </span>
+          <li class="factor factor-verbal">
+						<img class="factor__icon" src="./assets/images/icon-verbal.svg" alt="">
+            <div>Verbal</div>
+						<div class="factor__score-info">
+							<span>61</span>
+							<span>/ 100</span>
+						</div>
           </li>
-          <li class="card__factor-item">
-            <span> Visual </span>
-            <span> 72 / 100 </span>
+          <li class="factor factor-visual">
+						<img class="factor__icon" src="./assets/images/icon-visual.svg" alt="">
+            <div>Visual</div>
+						<div class="factor__score-info">
+							<span>72</span>
+							<span>/ 100</span>
+						</div>
           </li>
         </ul>
-        <button class="card__continue-button">Continue</button>
+        <button class="cs-button">Continue</button>
       </section>
     </main>
     <footer class="attribution">
