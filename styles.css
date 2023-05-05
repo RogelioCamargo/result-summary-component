@@ -181,6 +181,11 @@ body {
   font-size: 1.8rem;
 }
 
+.cs-button:hover {
+  cursor: pointer;
+  background: linear-gradient(180deg, #7755ff 0%, #6943ff 0.01%, #2f2ce9 100%);
+}
+
 /* Footer */
 .attribution {
   position: absolute;
@@ -216,7 +221,7 @@ body {
     height: 51.2rem;
     padding: 4rem;
     border-radius: 3.2rem;
-		gap: 1rem;
+    gap: 1rem;
   }
 
   .cr-title {
@@ -242,6 +247,7 @@ body {
     width: 36.8rem;
     height: 51.2rem;
     padding: 4rem;
+		gap: 2.5rem;
   }
 
   .cs-title {
