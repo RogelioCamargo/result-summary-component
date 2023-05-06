@@ -107,7 +107,7 @@ body {
 .cs__title {
   font-size: 1.8rem;
   line-height: 2.3rem;
-	font-weight: 700;
+  font-weight: 700;
 }
 
 .cs__factors {
@@ -124,7 +124,7 @@ body {
   grid-template-columns: 2rem 1fr 1fr;
   align-items: center;
   padding: 1.8rem;
-	gap: 1.2rem;
+  gap: 1.2rem;
 }
 
 .factor__icon {
@@ -137,7 +137,7 @@ body {
 
 .factor__score-info > span {
   color: var(--dark-navy);
-	font-weight: 700;
+  font-weight: 700;
 }
 
 .factor__score-info > span:last-child {
@@ -192,7 +192,7 @@ body {
   border-radius: 12.8rem;
   width: 100%;
   font-size: 1.8rem;
-	font-weight: 700;
+  font-weight: 700;
 }
 
 .cs__button:hover {
@@ -212,7 +212,7 @@ body {
 @media only screen and (min-width: 768px) {
   body {
     font-size: 1.8rem;
-		line-height: 2.3rem;
+    line-height: 2.3rem;
   }
 
   .card {
@@ -241,23 +241,23 @@ body {
   .cr__info {
     width: 200px;
     height: 200px;
-		padding: 6rem;
-		margin: 3.5rem auto 2.8rem;
+    padding: 6rem;
+    margin: 3.5rem auto 2.8rem;
   }
 
   .cr__user-score {
     font-size: 7.2rem;
-		line-height: 7.2rem;
+    line-height: 7.2rem;
   }
 
   .cr__grade {
     font-size: 3.2rem;
   }
 
-	.cr__description {
-		line-height: 2.3rem;
-		margin-top: 1.4rem;
-	}
+  .cr__description {
+    line-height: 2.3rem;
+    margin-top: 1.4rem;
+  }
 
   /* Card Summary */
 
@@ -270,11 +270,11 @@ body {
 
   .cs__title {
     font-size: 2.4rem;
-		line-height: 3.1rem;
-		margin-bottom: 2.8rem;
+    line-height: 3.1rem;
+    margin-bottom: 2.8rem;
   }
 
-	.cs__button {
-		margin-top: 4.1rem;
-	}
+  .cs__button {
+    margin-top: 4.1rem;
+  }
 }
