@@ -41,6 +41,7 @@ body {
 
 .card {
   background-color: var(--white);
+  color: var(--dark-navy);
 }
 
 /* Card Result */
