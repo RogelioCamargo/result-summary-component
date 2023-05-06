@@ -34,12 +34,9 @@ html {
 
 body {
   font-size: 1.6rem;
+  line-height: 2.1rem;
   font-family: var(--medium-font);
   min-height: 100vh;
-}
-
-body {
-	min-height: 100vh;
 }
 
 .card {
@@ -48,7 +45,7 @@ body {
 
 /* Card Result */
 
-.card__result {
+.cr {
   height: 35.6rem;
   width: 100%;
   background: linear-gradient(180deg, #7755ff 0%, #6943ff 0.01%, #2f2ce9 100%);
@@ -57,14 +54,12 @@ body {
   color: var(--light-blue);
   text-align: center;
   padding: 2rem 4rem 0;
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
 }
 
 .cr__title {
   font-size: 1.8rem;
-  margin-bottom: 2rem;
+  line-height: 2.3rem;
+  font-weight: 700;
 }
 
 .cr__info {
@@ -76,39 +71,43 @@ body {
   );
   height: 14rem;
   width: 14rem;
-  margin: 0 auto;
+  margin: 2.4rem auto;
   border-radius: 50%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  padding: 2.5rem 3.8rem;
 }
 
 .cr__user-score {
   font-size: 5.6rem;
+  font-family: var(--extrabold-font);
   color: var(--white);
+  line-height: 7.2rem;
+}
+
+.cr__total-score {
+  opacity: 0.52;
 }
 
 .cr__grade {
   font-size: 2.4rem;
+  line-height: 3.1rem;
   font-family: var(--bold-font);
   color: var(--white);
-  margin: 1rem 0;
+  margin-bottom: 0.8rem;
 }
 
 /* Card Summary  */
 
-.card__summary {
-  padding: 2rem;
+.cs {
+  padding: 3.2rem;
   display: flex;
   flex-direction: column;
-  gap: 2rem;
-  height: calc(100vh - 35.6rem);
-	font-weight: 700;
+  gap: 2.4rem;
+  font-weight: 700;
 }
 
 .cs__title {
   font-size: 1.8rem;
+  line-height: 2.3rem;
 }
 
 .cs__factors {
@@ -136,11 +135,11 @@ body {
 }
 
 .factor__score-info span {
-	color: var(--dark-navy)
+  color: var(--dark-navy);
 }
 
 .factor__score-info span:last-child {
-	opacity: 0.5;
+  opacity: 0.5;
 }
 
 .factor-reaction {
@@ -221,10 +220,10 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 0 3.2rem 3.2rem 0;
-		box-shadow: 0px 30px 60px rgba(61, 108, 236, 0.15);
+    box-shadow: 0px 30px 60px rgba(61, 108, 236, 0.15);
   }
 
-  .card__result {
+  .cr {
     width: 36.8rem;
     height: 51.2rem;
     padding: 4rem;
@@ -251,11 +250,11 @@ body {
 
   /* Card Summary */
 
-  .card__summary {
+  .cs {
     width: 36.8rem;
     height: 51.2rem;
     padding: 4rem;
-		gap: 2.5rem;
+    gap: 2.5rem;
   }
 
   .cs__title {
