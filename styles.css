@@ -102,12 +102,12 @@ body {
   display: flex;
   flex-direction: column;
   gap: 2.4rem;
-  font-weight: 700;
 }
 
 .cs__title {
   font-size: 1.8rem;
   line-height: 2.3rem;
+	font-weight: 700;
 }
 
 .cs__factors {
@@ -121,9 +121,10 @@ body {
   border-radius: 12px;
   height: 5.6rem;
   display: grid;
-  grid-template-columns: 3rem 1fr 1fr;
+  grid-template-columns: 2rem 1fr 1fr;
   align-items: center;
   padding: 1.8rem;
+	gap: 1.2rem;
 }
 
 .factor__icon {
@@ -134,11 +135,12 @@ body {
   justify-self: end;
 }
 
-.factor__score-info span {
+.factor__score-info > span {
   color: var(--dark-navy);
+	font-weight: 700;
 }
 
-.factor__score-info span:last-child {
+.factor__score-info > span:last-child {
   opacity: 0.5;
 }
 
@@ -190,6 +192,7 @@ body {
   border-radius: 12.8rem;
   width: 100%;
   font-size: 1.8rem;
+	font-weight: 700;
 }
 
 .cs__button:hover {
