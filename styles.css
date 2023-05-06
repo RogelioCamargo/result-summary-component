@@ -59,12 +59,12 @@ body {
   gap: 0.5rem;
 }
 
-.cr-title {
+.cr__title {
   font-size: 1.8rem;
   margin-bottom: 2rem;
 }
 
-.cr-info {
+.cr__info {
   background: linear-gradient(
     180deg,
     #4d21c9 0%,
@@ -86,7 +86,7 @@ body {
   color: var(--white);
 }
 
-.cr-grade {
+.cr__grade {
   font-size: 2.4rem;
   font-family: var(--bold-font);
   color: var(--white);
@@ -103,7 +103,7 @@ body {
   height: calc(100vh - 35.6rem);
 }
 
-.cs-title {
+.cs__title {
   font-size: 1.8rem;
 }
 
@@ -171,7 +171,7 @@ body {
   color: #1125d6;
 }
 
-.cs-button {
+.cs__button {
   background-color: var(--dark-navy);
   height: 5.6rem;
   border: none;
@@ -181,7 +181,7 @@ body {
   font-size: 1.8rem;
 }
 
-.cs-button:hover {
+.cs__button:hover {
   cursor: pointer;
   background: linear-gradient(180deg, #7755ff 0%, #6943ff 0.01%, #2f2ce9 100%);
 }
@@ -224,11 +224,11 @@ body {
     gap: 1rem;
   }
 
-  .cr-title {
+  .cr__title {
     font-size: 2.4rem;
   }
 
-  .cr-info {
+  .cr__info {
     width: 200px;
     height: 200px;
   }
@@ -237,7 +237,7 @@ body {
     font-size: 7.2rem;
   }
 
-  .cr-grade {
+  .cr__grade {
     font-size: 3.2rem;
   }
 
@@ -250,7 +250,7 @@ body {
 		gap: 2.5rem;
   }
 
-  .cs-title {
+  .cs__title {
     font-size: 2.4rem;
   }
 }
