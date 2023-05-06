@@ -71,7 +71,7 @@ body {
   );
   height: 14rem;
   width: 14rem;
-  margin: 2.4rem auto;
+  margin: 3.5rem auto 2.4rem;
   border-radius: 50%;
   padding: 2.5rem 3.8rem;
 }
@@ -114,7 +114,7 @@ body {
   list-style-type: none;
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 1.6rem;
 }
 
 .factor {
@@ -212,6 +212,7 @@ body {
 @media only screen and (min-width: 768px) {
   body {
     font-size: 1.8rem;
+		line-height: 2.3rem;
   }
 
   .card {
@@ -223,15 +224,14 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 0 3.2rem 3.2rem 0;
-    box-shadow: 0px 30px 60px rgba(61, 108, 236, 0.15);
+    box-shadow: 0px 3rem 6rem rgba(61, 108, 236, 0.15);
   }
 
   .cr {
     width: 36.8rem;
     height: 51.2rem;
-    padding: 4rem;
+    padding: 3.8rem 5.4rem;
     border-radius: 3.2rem;
-    gap: 1rem;
   }
 
   .cr__title {
@@ -241,26 +241,40 @@ body {
   .cr__info {
     width: 200px;
     height: 200px;
+		padding: 6rem;
+		margin: 3.5rem auto 2.8rem;
   }
 
   .cr__user-score {
     font-size: 7.2rem;
+		line-height: 7.2rem;
   }
 
   .cr__grade {
     font-size: 3.2rem;
   }
 
+	.cr__description {
+		line-height: 2.3rem;
+		margin-top: 1.4rem;
+	}
+
   /* Card Summary */
 
   .cs {
     width: 36.8rem;
     height: 51.2rem;
-    padding: 4rem;
-    gap: 2.5rem;
+    padding: 3.8rem;
+    gap: 0;
   }
 
   .cs__title {
     font-size: 2.4rem;
+		line-height: 3.1rem;
+		margin-bottom: 2.8rem;
   }
+
+	.cs__button {
+		margin-top: 4.1rem;
+	}
 }
